@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brand-dark text-brand-text;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-navy;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-gray rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-brand-red;
+}
+
+select option {
+  @apply bg-brand-navy text-brand-text;
+}
