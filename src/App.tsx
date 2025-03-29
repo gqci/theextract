@@ -26,7 +26,7 @@ const ALLOWED_DOCUMENTS = [
   { type: DOCUMENT_TYPE_MAPPING[5], description: 'Canadian health insurance card' }
 ];
 
-const WHY_DOCAI = [
+const WHY_THEEXTRACTOR = [
   {
     icon: Brain,
     title: 'Smart Processing',
@@ -294,14 +294,14 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Cpu className="w-8 h-8 text-brand-logo" />
-              <span className="text-2xl font-bold text-brand-logo">DocAI</span>
+              <span className="text-2xl font-bold text-brand-logo">TheExtractor</span>
             </div>
             <div className="flex space-x-4">
               <button 
-                onClick={() => document.getElementById('why-docai')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('why-theextractor')?.scrollIntoView({ behavior: 'smooth' })}
                 className="px-4 py-2 text-sm font-medium hover:text-brand-logo transition-colors"
               >
-                Why DocAI?
+                Why TheExtractor?
               </button>
               <button 
                 onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
@@ -324,10 +324,10 @@ function App() {
       </header>
 
       <main className="container mx-auto px-4 py-8">
-        <section id="why-docai" className="mb-16 scroll-mt-24">
-          <h2 className="text-3xl font-bold mb-8">Why Choose DocAI?</h2>
+        <section id="why-theextractor" className="mb-16 scroll-mt-24">
+          <h2 className="text-3xl font-bold mb-8">Why Choose TheExtractor?</h2>
           <div className="grid md:grid-cols-4 gap-6">
-            {WHY_DOCAI.map((feature, index) => (
+            {WHY_THEEXTRACTOR.map((feature, index) => (
               <div key={index} className="bg-brand-gray rounded-lg p-6 border border-gray-600">
                 <feature.icon className="w-10 h-10 text-brand-red mb-4" />
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
