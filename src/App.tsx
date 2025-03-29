@@ -15,7 +15,8 @@ const DOCUMENT_TYPE_MAPPING = {
   2: 'Passport',
   3: 'Transcripts',
   4: 'Resume',
-  5: 'Health card Canada'
+  5: 'Health card Canada',
+  6: 'Degrees'
 };
 
 const ALLOWED_DOCUMENTS = [
@@ -23,7 +24,8 @@ const ALLOWED_DOCUMENTS = [
   { type: DOCUMENT_TYPE_MAPPING[2], description: 'Valid passport document' },
   { type: DOCUMENT_TYPE_MAPPING[3], description: 'Academic transcripts and records' },
   { type: DOCUMENT_TYPE_MAPPING[4], description: 'Professional resume/CV' },
-  { type: DOCUMENT_TYPE_MAPPING[5], description: 'Canadian health insurance card' }
+  { type: DOCUMENT_TYPE_MAPPING[5], description: 'Canadian health insurance card' },
+  { type: DOCUMENT_TYPE_MAPPING[6], description: 'Educational degree certificates' },
 ];
 
 const WHY_THEEXTRACTOR = [
