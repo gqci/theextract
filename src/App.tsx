@@ -72,7 +72,7 @@ const PROCESS_STEPS = [
 ];
 
 const MAX_FILE_SIZE = 2 * 1024 * 1024; // 2MB
-const MAX_FILES = 5;
+const MAX_FILES = 3;
 const MAKE_WEBHOOK_URL = import.meta.env.VITE_MAKE_WEBHOOK_URL;
 
 interface ProcessedDocument {
@@ -316,7 +316,7 @@ function App() {
         </div>
       </nav>
       
-      <header className="bg-brand-navy py-20 mt-16">
+      <header className="bg-brand-navy py-12 mt-8">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold mb-6">Document Field Extractor</h1>
           <p className="text-2xl text-brand-text-secondary max-w-3xl">
