@@ -292,7 +292,7 @@ function App() {
       <Toaster position="top-right" />
       
       <nav className="bg-brand-navy/95 backdrop-blur-sm fixed w-full z-50 border-b border-gray-700">
-        <div className="container mx-auto px-4 py-3">
+        <div className="container mx-auto px-4 py-1">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Cpu className="w-8 h-8 text-brand-logo" />
