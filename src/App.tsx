@@ -292,7 +292,7 @@ function App() {
       <Toaster position="top-right" />
       
       <nav className="bg-brand-navy/95 backdrop-blur-sm fixed w-full z-50 border-b border-gray-700">
-        <div className="container mx-auto px-4 py-3">
+        <div className="container mx-auto px-4 py-2">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Cpu className="w-8 h-8 text-brand-logo" />
@@ -316,7 +316,7 @@ function App() {
         </div>
       </nav>
       
-      <header className="bg-brand-navy py-12 mt-8">
+      <header className="bg-brand-navy py-16 mt-[60px]">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-bold mb-6">Document Field Extractor</h1>
           <p className="text-2xl text-brand-text-secondary max-w-3xl">
