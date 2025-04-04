@@ -13,10 +13,10 @@ const ALLOWED_TYPES = [
 const DOCUMENT_TYPE_MAPPING = {
   1: 'Driver\'s license',
   2: 'Passport',
-  3: 'Transcripts',
+  3: 'Transcript',
   4: 'Resume',
   5: 'Health card Canada',
-  6: 'Degrees / Certificates'
+  6: 'Degrees / Certificate'
 };
 
 const ALLOWED_DOCUMENTS = [
