@@ -16,7 +16,7 @@ const DOCUMENT_TYPE_MAPPING = {
   3: 'Transcripts',
   4: 'Resume',
   5: 'Health card Canada',
-  6: 'Degrees'
+  6: 'Degrees / Certificates'
 };
 
 const ALLOWED_DOCUMENTS = [
