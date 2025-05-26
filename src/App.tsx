@@ -318,7 +318,7 @@ function App() {
       
       <header className="bg-brand-navy py-14">
         <div className="container mx-auto px-6 py-8">
-          <h1 className="text-5xl font-bold mb-6">Document Field Extractor</h1>
+          <h1 className="text-5xl font-bold mb-6">AI Compiler</h1>
           <p className="text-2xl text-brand-text-secondary max-w-3xl">
             Extract important information from your documents quickly and securely using advanced AI technology
           </p>
